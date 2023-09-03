@@ -12,12 +12,11 @@ The `ImageEditor` class contains a set of methods for performing image processin
 4. Rotating an image by 90 degrees clockwise.
 5. Flipping an image horizontally.
 6. Mirroring an image vertically.
-7. Mirroring an image horizontally (vertically flipping).
+7. Mirroring an image horizontally.
 8. Flipping an image vertically.
 9. Creating a negative image.
-10. Creating a posterized image.
-11. Creating a posterized image with custom levels.
-12. Applying a blur effect to an image.
+10. Creating a posterized image with custom levels.
+11. Applying a blur effect to an image.
 
 The class also provides methods for handling user input, allowing users to select and apply these image processing operations.
 
@@ -54,16 +53,6 @@ public static BufferedImage rotateBy90(BufferedImage image)
 ```
 
 This method rotates a given `BufferedImage` by 90 degrees clockwise and returns a new rotated `BufferedImage`.
-
-### `rotateBy90Dash`, `rotateBy90DoubleDash`, `rotateBy90TripleDash`
-
-```java
-public static BufferedImage rotateBy90Dash(BufferedImage image)
-public static BufferedImage rotateBy90DoubleDash(BufferedImage image)
-public static BufferedImage rotateBy90TripleDash(BufferedImage image)
-```
-
-These methods rotate a given `BufferedImage` by 90 degrees clockwise using different techniques and return a new rotated `BufferedImage`.
 
 ### `horizontalFlip`
 
