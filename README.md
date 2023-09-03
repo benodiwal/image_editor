@@ -97,14 +97,6 @@ This method creates a negative image (invert colors) from a given `BufferedImage
 ### `poster`
 
 ```java
-public static BufferedImage poster(BufferedImage image)
-```
-
-This method creates a posterized image (reduces color levels) from a given `BufferedImage` and returns the posterized image.
-
-### `poster2`
-
-```java
 public static BufferedImage poster2(BufferedImage image, int numLevels)
 ```
 
